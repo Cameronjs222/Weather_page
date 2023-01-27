@@ -55,6 +55,9 @@ nav {
     justify-content: space-around;
     margin: 20px;
 }
-.celcius {
-    display: ;
+.high {
+    color: red;
+}
+.cold {
+    color: Blue;
 }
