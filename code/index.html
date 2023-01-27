@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <div id="cities">
+            <p>Burbank</p>
+            <p>Chicago</p>
+            <p>Dallas</p>
+        </div>
+    </nav>
+    <div id="city">
+        <h2>San Jose</h2>
+        <div>
+            <label for="temp">Show temperature in</label>
+            <select name="Temp" id="temp" onchange="alert('test')">
+                <option value="Celcius">°C</option>
+                <option value="Fahrenheit">°F</option>
+            </select>
+        </div>
+    </div>
+    <div id="weather_container">
+        <div class="weather">
+            <h2>Today</h2>
+            <img src="./assets/assets/some_rain.png" alt="Some Rain" class="weather_img">
+            <p>Some Rain</p>
+            <div class="temp">
+                <p class="high"><span class="Celcius">24°</span><span hidden>75.2°</span></p>
+                <p class="cold">18</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2>Tomorrow</h2>
+            <img src="./assets/assets/some_sun.png" alt="Some Sun" class="weather_img">
+            <p>Some Sun</p>
+            <div class="temp">
+                <p class="high">24</p>
+                <p class="cold">18</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2>Friday</h2>
+            <img src="./assets/assets/some_clouds.png" alt="Some clouds"  class="weather_img">
+            <p>Some Clouds</p>
+            <div class="temp">
+                <p class="high">24</p>
+                <p class="cold">18</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2>Saturday</h2>
+            <img src="./assets/assets/some_sun.png" alt="Some sun"  class="weather_img">
+            <p>Some Sun</p>
+            <div class="temp">
+                <p class="high">24</p>
+                <p class="cold">18</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
